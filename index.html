@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="calculator-icon.ico">
+
+</head>
+<body>
+    <h1> Calculator</h1>
+
+    <main>
+    <div class="container-calc">
+        <section id="Display-area">
+            <div class="currentInput"></div>
+            <input type="text" disabled value="0" id="display" class="calc__display-input answerScreen">
+
+        </section>
+        <section class="keypad-btns">
+            <button type="button" class="fun_btn clear_btn" id="c" value=""> C</button>
+            <button type="button" class="fun_btn clear_btn" id="ce" value=""> &#11013;</button>
+            <button type="button" class="fun_btn operation" id="percent" value="%">%</button>
+            <button type="button" class="fun_btn operation" value="/">/</button>
+            <button type="button" class="num_btn number" value="7">7</button>
+            <button type="button" class="num_btn number" value="8">8</button>
+            <button type="button" class="num_btn number" value="9">9</button>
+            <button type="button" class="fun_btn operation" value="*">*</button>
+            <button type="button" class="num_btn number" value="4">4</button>
+            <button type="button" class="num_btn number" value="5">5</button>
+            <button type="button" class="num_btn number" value="6">6</button>
+            <button type="button" class="fun_btn operation" value="-">-</button>
+            <button type="button" class="num_btn number" value="1">1</button>
+            <button type="button" class="num_btn number" value="2">2</button>
+            <button type="button" class="num_btn number" value="3">3</button>
+            <button type="button" class="fun_btn operation" value="+">+</button>
+            <button type="button" id="sign" class="fun_btn operation" value="+/-">+/-</button>
+            <button type="button" class="num_btn number" value="0">0</button>
+            <button type="button" id="decimal"  class="num_btn" value=".">.</button>
+            <button type="button" id="result" class="fun_btn operation" value="">=</button>
+        </section>
+        
+    </div>
+</main>
+    <footer id="footer">
+        <p>Aya Hisham &copy; 2022</p>
+    </footer>
+  
+</body>
+</html>
